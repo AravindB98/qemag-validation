@@ -99,3 +99,36 @@ All noisy simulations use the IBM Brisbane backend noise model.
 ## License
 
 MIT License. See LICENSE for details.
+
+---
+
+## 🧒 Explain Like I'm 5
+
+The proof-it-works code for the QEMA-G research paper. QEMA-G proposes giving graph AI a quantum memory; this repo contains the Qiskit simulations — clean and with realistic quantum-computer noise — that reproduce every number in the paper, so anyone can verify the claims.
+
+## 🧰 Tech Stack
+
+Python · Qiskit · quantum circuit simulation · IBM Brisbane noise model · reproducible experiment scripts
+
+## 🌍 Real-Life Applications
+
+- Independent verification of the QEMA-G paper's results
+- Starting point for quantum graph-AI experiments
+- Example of publishing reproducible quantum research
+
+## 🤝 Contributing
+
+Contributions of every size are welcome!
+
+1. ⭐ **Star this repo** — it helps more people discover the project.
+2. 🍴 **Fork it** and create a feature branch (`git checkout -b feature/your-idea`).
+3. Commit your changes with clear messages.
+4. Open a Pull Request describing what you improved and why.
+
+Found a bug or have an idea? [Open an issue](https://github.com/AravindB98/qemag-validation/issues). And if this project helped you, please **star ⭐ and fork 🍴** — it genuinely helps the project grow.
+
+## 🔭 Future Scope
+
+- Runs on real IBM quantum hardware
+- Larger graph scales as simulators improve
+- Comparison against classical memory baselines
